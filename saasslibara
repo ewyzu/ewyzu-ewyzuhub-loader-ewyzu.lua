@@ -1889,7 +1889,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -2131,7 +2131,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(218, 165, 32)
+				Button.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2165,7 +2165,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
