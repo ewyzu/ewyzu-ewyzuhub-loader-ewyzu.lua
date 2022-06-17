@@ -1350,7 +1350,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 		
@@ -1408,7 +1408,7 @@ function DiscordLib:Window(text)
 
 		CloseBtn1.Name = "CloseBtn1"
 		CloseBtn1.Parent = UserChange
-		CloseBtn1.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		CloseBtn1.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
@@ -1609,7 +1609,7 @@ function DiscordLib:Window(text)
 
 		AlrightBtn.Name = "AlrightBtn"
 		AlrightBtn.Parent = Notification
-		AlrightBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		AlrightBtn.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		AlrightBtn.Position = UDim2.new(0.0332369953, 0, 0.789141417, 0)
 		AlrightBtn.Size = UDim2.new(0, 322, 0, 27)
 		AlrightBtn.Font = Enum.Font.Gotham
