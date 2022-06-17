@@ -1009,7 +1009,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 
@@ -1485,7 +1485,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 		
@@ -1501,7 +1501,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				TextBoxFrame,
 				TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 
@@ -1950,7 +1950,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Server,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+							{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 						):Play()
 						TweenService:Create(
 							v.ServerCorner,
@@ -1991,7 +1991,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				Server,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 			TweenService:Create(
 				ServerBtnCorner,
