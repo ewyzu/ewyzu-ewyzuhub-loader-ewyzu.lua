@@ -854,7 +854,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 
@@ -907,7 +907,7 @@ function DiscordLib:Window(text)
 
 		CloseBtn1.Name = "CloseBtn1"
 		CloseBtn1.Parent = AvatarChange
-		CloseBtn1.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		CloseBtn1.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
@@ -922,7 +922,7 @@ function DiscordLib:Window(text)
 
 		ResetBtn.Name = "ResetBtn"
 		ResetBtn.Parent = AvatarChange
-		ResetBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		ResetBtn.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		ResetBtn.BackgroundTransparency = 1.000
 		ResetBtn.Position = UDim2.new(0.260895967, 0, 0.823000014, 0)
 		ResetBtn.Size = UDim2.new(0, 76, 0, 27)
@@ -1329,7 +1329,7 @@ function DiscordLib:Window(text)
 
 		ChangeBtn.Name = "ChangeBtn"
 		ChangeBtn.Parent = UserChange
-		ChangeBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		ChangeBtn.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		ChangeBtn.Position = UDim2.new(0.749670506, 0, 0.823232353, 0)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
 		ChangeBtn.Font = Enum.Font.Gotham
@@ -1350,7 +1350,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 			):Play()
 		end)
 		
@@ -1404,11 +1404,11 @@ function DiscordLib:Window(text)
 		Close2Icon.Position = UDim2.new(-0.0384615399, 0, 0.312910825, 0)
 		Close2Icon.Size = UDim2.new(0, 25, 0, 25)
 		Close2Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
-		Close2Icon.ImageColor3 = Color3.fromRGB(119, 122, 127)
+		Close2Icon.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
 		CloseBtn1.Name = "CloseBtn1"
 		CloseBtn1.Parent = UserChange
-		CloseBtn1.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		CloseBtn1.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		CloseBtn1.BackgroundTransparency = 1.000
 		CloseBtn1.Position = UDim2.new(0.495000005, 0, 0.823000014, 0)
 		CloseBtn1.Size = UDim2.new(0, 76, 0, 27)
@@ -1609,7 +1609,7 @@ function DiscordLib:Window(text)
 
 		AlrightBtn.Name = "AlrightBtn"
 		AlrightBtn.Parent = Notification
-		AlrightBtn.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+		AlrightBtn.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 		AlrightBtn.Position = UDim2.new(0.0332369953, 0, 0.789141417, 0)
 		AlrightBtn.Size = UDim2.new(0, 322, 0, 27)
 		AlrightBtn.Font = Enum.Font.Gotham
@@ -1889,7 +1889,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -2131,7 +2131,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+				Button.BackgroundColor3 = Color3.fromRGB(222, 184, 135)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2165,7 +2165,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(222, 184, 135)}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2233,14 +2233,14 @@ function DiscordLib:Window(text)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
 				Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
-				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
+				Icon.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				
 				Toggle.MouseButton1Click:Connect(function()
 					if toggled == false then
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(67,181,129)}
+							{ImageColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
@@ -2264,7 +2264,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(0, 0, 0)}
+							{ImageColor3 = Color3.fromRGB(114, 118, 125)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
